@@ -8,7 +8,6 @@ function App() {
 <p>This is a simple React app.</p>
     </div>
    
-
   );
 }
 
