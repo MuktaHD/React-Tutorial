@@ -1,0 +1,117 @@
+Components and Props
+
+#########################################
+
+
+-----------------------------------------------
+Components:
+------------------------------------------------
+Think of components like Lego blocks. Just like you can use Lego blocks to build different things (a house, a car, a spaceship), you can use components to build different parts of a website or app.
+Each component is a small piece that does one thing. For example, a "Greeting" component might just show a message that says "Hello!"
+Components are the building blocks of a React application. They allow you to break down the UI into reusable and independent pieces. Each component can maintain its own state and can be composed with other components to build complex UIs.
+
+--------------------------------------------------------
+Props:
+--------------------------------------------------------
+Props are like the special stickers or decorations you can put on your Lego blocks to make them look different. They are pieces of information you give to components to customize them.
+For example, if you have a "Greeting" component, you can use props to change the name it greets. So, it could say "Hello, Alice!" or "Hello, Bob!" depending on the prop you give it.
+Props (short for properties) are the way to pass data from one component to another. Props are read-only and are passed from parent components to child components. They allow components to be dynamic and reusable by providing custom data.
+
+---------------------------------------------------------
+Functional vs. Class Components
+#########################################################
+---------------------------------------------------------
+
+--------------------------------------------------------
+Functional Components
+--------------------------------------------------------
+
+Functional Components are like simple Lego blocks that you just snap together. They are easy to use and don’t need a lot of extra stuff to work.
+
+---------------------------------------------------------
+Class Components
+---------------------------------------------------------
+Class Components are like Lego sets that come with an instruction manual and lots of pieces. They can do more complicated things, but they take a bit more time to put together.
+
+
+
+Practical
+
+###################################################
+
+Example: Create a Functional Component Displaying a Greeting Message Using Props
+Let’s make a simple example with a functional component. Imagine we want to greet different people by their names.
+
+
+
+--------------------------------------------------------------
+###########################################
+Interview Questions
+###########################################
+
+--------------------------------------------------------------
+
+
+---------------------------------------------------------------
+1. What are components in React?
+---------------------------------------------------------------
+Answer: 
+
+
+Components are the building blocks of a React application. They are reusable, independent pieces of the UI that can manage their own state and lifecycle. Components can be nested within other components to build complex user interfaces.
+
+
+-----------------------------------------------------------------------
+2. How do functional components differ from class components?
+-----------------------------------------------------------------------
+
+Answer:
+
+Functional Components:
+
+Simple JavaScript functions that return JSX.
+Do not have their own state or lifecycle methods natively but can use Hooks (e.g., useState, useEffect) to manage state and side effects.
+More concise and easier to write.
+
+
+Class Components:
+
+ES6 classes that extend from React.Component.
+Have their own state and lifecycle methods (e.g., componentDidMount, componentDidUpdate).
+More verbose and require the use of this keyword.
+Explain with one example.
+
+
+-------------------------------------------------------------------------
+3. What are props in React, and how do you pass them to a component?
+-------------------------------------------------------------------------
+
+Answer: 
+
+Props (short for properties) are read-only attributes that are passed from a parent component to a child component. 
+They allow data to be passed and help customize the behavior or appearance of components.
+explain one Passing Props Example.
+
+
+------------------------------------------------------------------------------
+4. Can props be modified inside a component? Why or why not?
+------------------------------------------------------------------------------
+
+Answer: 
+
+No, props cannot be modified inside a component.
+Props are read-only, and their main purpose is to pass data from parent to child components. 
+Modifying props directly would break the unidirectional data flow in React, leading to unpredictable behavior and making debugging difficult.
+To manage state within a component, use the component's state instead of props.
+
+
+---------------------------------------------------------------------------------
+5. What is the purpose of the key attribute in lists?
+-------------------------------------------------------------------------------------
+
+Answer: 
+
+The key attribute is used to give each element in a list a unique identifier. 
+This helps React identify which items have changed, been added, or removed. 
+Using keys improves the performance of list rendering and helps React efficiently update the DOM.
+Explain with one Example.

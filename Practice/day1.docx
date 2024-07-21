@@ -1,0 +1,108 @@
+------------------------------------------
+1. Overview of React and its advantages
+------------------------------------------
+###########################################
+React is a JavaScript library for building a reusable user interface(UI). It was initially released on May 29, 2013. The current version is 16.13.1 and somehow it is stable. React was created by Facebook. React makes creating UI components very easy. The official React documentation can be found here. When we work with React we do not interact directly with the DOM. React has its own way to handle the DOM(Document Object Model) manipulation. React uses its virtual DOM to make new changes and it updates only the element, that needs changing. Do not directly interact with DOM when you build a React Application and leave the DOM manipulation job for the React virtual DOM. In this challenge, we will develop 10-15 web applications using React. A web application, or a website, is made of buttons, links, forms with different input fields, header, footer, sections, articles, texts, images, audios, videos and boxes with different shapes. We use react to make a reusable UI components of a website.
+
+----------------------------------------------------------------
+2. Basic setup and creating a React app using Create React App
+----------------------------------------------------------------
+##################################################################
+
+---------------------------------------------------------------
+3. Introduction to JSX
+---------------------------------------------------------------
+###################################################
+Imagine you have a magic notebook where you can write both stories and instructions for your toys. JSX is like that magic notebook, but for building websites! It lets you mix HTML (which looks like a story) with JavaScript (which is like instructions) in one place.
+
+------------------
+Why Use JSX?
+------------------
+
+i. Easier to Read: Just like how it's easier to read a story with pictures, JSX makes it easier to understand what your website will look like.
+
+ii. More Powerful: You can write instructions (JavaScript) right inside your story (HTML), making your website smart and interactive.
+
+iii. Simpler: Instead of writing separate instructions and stories, you can keep everything together, making it simpler to build and manage.
+
+4. Example: Simple "Hello World" React app
+###################################################
+excute steps to show hello world
+
+
+
+
+
+---------------------------------------------------------
+#######################################
+Interview Questions
+#######################################
+---------------------------------------------------------
+
+-----------------------------------------------
+1. What is React, and what are its main features?
+-----------------------------------------------
+Answer
+
+React is a JavaScript library developed by Facebook for building user interfaces, particularly single-page
+ applications where data changes frequently. It allows developers to create large web applications that can
+  update and render efficiently in response to data changes.
+
+Main features:
+
+Component-Based Architecture: UI is divided into reusable components.
+Virtual DOM: Improves performance by minimizing direct DOM manipulations.
+One-Way Data Binding: Data flows in one direction, making it easier to debug and understand.
+JSX: JavaScript XML syntax for writing HTML-like code within JavaScript.
+
+------------------------------------------
+2. What is JSX, and why is it used in React?
+------------------------------------------
+Answer
+
+JSX stands for JavaScript XML. It is a syntax extension for JavaScript that looks similar to HTML. 
+JSX makes it easier to write and add HTML in React. It is used because it provides a more intuitive way to 
+create and compose components in React, making the code more readable and easier to debug.
+
+----------------------------------------------------------
+3. How do you create a new React app using Create React App?
+----------------------------------------------------------
+Answer:
+
+ Create-React-App is an officially supported way to create single-page React applications. It offers a modern build setup with no configuration.
+Steps:
+Install Node.js and npm if they are not already installed.
+Open a terminal and run the following command:
+
+npx create-react-app my-react-app
+
+Start Your App: 
+Go into the my-react-app  folder and start your app:
+
+cd my-react-app
+
+Start the development server:
+
+npm start
+
+--------------------------------------
+4. Explain the concept of a virtual DOM.
+--------------------------------------
+Answer: The virtual DOM (VDOM) is a programming concept where a virtual representation of the UI is kept in memory and synced with the real DOM by a library such as React. This process is called reconciliation. The VDOM allows React to update only the parts of the DOM that have changed, which improves performance.
+Example: When the state of a React component changes, a new VDOM is created and compared with the previous VDOM. React then determines the minimal set of changes required to update the actual DOM.
+
+-------------------------------------------------------
+5. How does React differ from other JavaScript frameworks?
+-------------------------------------------------------
+Answer:
+React vs. Angular:
+Architecture: React is a library focused on building UI components, whereas Angular is a full-fledged framework providing more built-in features like routing and form validation.
+Data Binding: React uses one-way data binding, while Angular uses two-way data binding.
+Learning Curve: React has a smaller API surface and can be easier to learn compared to Angular’s extensive framework.
+React vs. Vue:
+Community and Ecosystem: React has a larger community and ecosystem, offering more libraries and tools.
+Flexibility: React is more flexible and unopinionated, allowing developers to integrate with other libraries as needed. Vue offers an opinionated way of doing things, making it easier for beginners to start but less flexible.
+React vs. jQuery:
+Modern Approach: React is a modern library with a component-based approach, while jQuery is a utility library for DOM manipulation.
+Performance: React’s virtual DOM offers better performance for dynamic applications compared to direct DOM manipulations in jQuery.
+These differences highlight how React focuses on the view layer and offers efficient rendering through its virtual DOM, providing flexibility and performance advantages over traditional frameworks and libraries.
