@@ -1,0 +1,31 @@
+.container1{
+        background-color: pink;
+        height: 300px;
+}
+
+.container1 button{
+    background-color: rgb(121, 115, 211);
+    color: rgb(232, 226, 238);
+    border-radius: 10px;
+    border: 1px;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    transition: 0.5s;
+    outline: none;
+   
+}
+.container1 button:hover{
+    background-color: rgb(232, 226, 238);
+    color: rgb(121, 115, 211);
+}
+.container1 setContentIndex{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

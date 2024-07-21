@@ -65,4 +65,3 @@ import 'react-toastify/dist/ReactToastify.css';
 }
 
 export default App;
-
