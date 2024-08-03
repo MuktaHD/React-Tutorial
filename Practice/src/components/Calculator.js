@@ -13,7 +13,6 @@ const Calculator = () => {
   const handleSubtraction = () => {
     setResult(Number(num1) - Number(num2));
   };
-
   return (
     <div className='calculator'>
       <input type='number' onChange={(e) => setNum1(e.target.value)} />
