@@ -1,7 +1,5 @@
 // src/components/ClassButton.js
 import React, { Component } from 'react';
-
-
 class ClassButton extends Component {
   render() {
     return (
